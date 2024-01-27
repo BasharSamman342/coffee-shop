@@ -10,11 +10,11 @@ const ProductsTab = () => {
       justifyContent={"center"}
       flexDirection={"column"}
       variant="soft-rounded"
-      colorScheme="#00f"
+      colorScheme="green"
     >
       <TabList justifyContent={"center"}>
-        <Tab paddingX={4}>Tab 1</Tab>
-        <Tab paddingX={4}>Tab 2</Tab>
+        <Tab paddingX={4}>All Prodducts</Tab>
+        <Tab paddingX={4}>Available Products</Tab>
       </TabList>
       <TabPanels width={"100%"}>
         <TabPanel>

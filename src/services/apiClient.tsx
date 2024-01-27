@@ -1,7 +1,19 @@
 import axios from "axios";
 
-const apiClient = axios.create({
+const apiInstance = axios.create({
   baseURL: "https://fake-coffee-api.vercel.app",
 });
 
-export default apiClient;
+class ApiClient<T> {
+  endpoint: string;
+  constructor(endpoint: string) {
+    this.endpoint = endpoint;
+  }
+
+  getAll = () => {
+    // return apiInstance.get<T[]>(this.endpoint).then((res) => res.data);
+    return apiInstance.get<T[]>(this.endpoint).then((res) => res.data);
+  };
+}
+
+export default ApiClient;

@@ -1,6 +1,19 @@
-.img{
-    background-image: url("../../assets/bg-cafe.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.img {
+  background-image: url("../../assets/bg-cafe.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.center {
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  transform: translateX(-15%);
+
+  width: 80%;
+}
+
+.h-300 {
+  height: 300px;
 }
