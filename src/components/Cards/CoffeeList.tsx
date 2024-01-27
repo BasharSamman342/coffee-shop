@@ -1,4 +1,4 @@
-import { Box, SimpleGrid } from "@chakra-ui/react";
+import { SimpleGrid } from "@chakra-ui/react";
 import CoffeeCard from "./CoffeeCard";
 
 const CoffeeList = () => {
