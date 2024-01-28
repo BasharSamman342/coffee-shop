@@ -16,12 +16,13 @@ function App() {
           fontWeight={"bold"}
           fontSize={"28px"}
           as="h1"
-          marginY={5}
+          marginBottom={6}
           size="4xl"
         >
           Our Collection
         </Heading>
         <Text
+          textAlign={"center"}
           marginBottom={5}
           className="text-gray-400 text-center"
           width={"40%"}

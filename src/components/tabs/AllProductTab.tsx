@@ -6,10 +6,19 @@ const AllProductTab = () => {
   const { data, isLoading } = coffees();
 
   return (
-    <SimpleGrid columns={3} padding={5} spacing={20}>
+    <SimpleGrid
+      columns={{
+        sm: 1,
+        md: 2,
+        lg: 3,
+        xl: 3,
+      }}
+      padding={5}
+      spacing={6}
+    >
       {isLoading && <Spinner />}
       {data?.map((coffee) => {
-        return <CoffeeCard coffee={coffee} />;
+        return <CoffeeCard key={coffee.id} coffee={coffee} />;
       })}
     </SimpleGrid>
   );

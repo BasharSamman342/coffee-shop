@@ -14,6 +14,9 @@ export interface Coffee {
   roast_level: number;
   image_url: string;
   is_popular: boolean;
+  rating: number;
+  votes: number;
+  sold: boolean;
 }
 
 const apiClient = new ApiClient<Coffee>("/api");

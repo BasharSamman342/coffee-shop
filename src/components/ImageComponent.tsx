@@ -10,6 +10,8 @@ const ImageComponent = ({ src, is_popular }: Props) => {
       {is_popular && (
         <Badge
           paddingX={2}
+          left={8}
+          top={8}
           paddingY={1}
           borderRadius={10}
           position={"absolute"}

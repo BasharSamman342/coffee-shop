@@ -13,7 +13,7 @@ const ProductsTab = () => {
       colorScheme="green"
     >
       <TabList justifyContent={"center"}>
-        <Tab paddingX={4}>All Prodducts</Tab>
+        <Tab paddingX={4}>All Products</Tab>
         <Tab paddingX={4}>Available Products</Tab>
       </TabList>
       <TabPanels width={"100%"}>
